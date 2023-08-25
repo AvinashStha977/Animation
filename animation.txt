@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+  .heading{
+    font-weight: bold;
+    font-size: 20px;
+    
+    animation-name: example;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-fill-mode:none ;
+    animation-iteration-count: infinite;
+
+  }
+
+@keyframes example {
+    from{transform: translateX(0px);}
+    to{transform: translateX(100%);}
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+     <h1 class="heading">Hello World</h1>
+</body>
+</html>
